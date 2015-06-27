@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mocha', '>= 1.0'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'will_paginate'
+  s.add_development_dependency 'multi_json', '>= 1.11.1'
 
 
   if File.exists?('UPGRADING')
